@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Dongle:wght@700&display=swap');
+
+/*div 구역*/
+.bkground{
+    background-image: url("./img/bkground.png");
+    width:1920px;
+    height:120%;
+}
+.top{
+    width:1920px;
+    height:410px;
+}
+.btnzone{
+    width:1920px;
+    height:200px; 
+    box-sizing: border-box;  
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+.logo{  
+    left:725px;
+    top:60px;
+    position:absolute; 
+    
+}
+.login{
+    width:250px;
+    height:140px;
+    position:absolute;
+    top:40px;
+    left:1650px;        
+}
+.middle{
+    width:1200px;
+    height:500px;
+    margin-left: 360px;
+}
+.bottom{
+    width:1920px;
+    height:185px;
+    background-color:rgb(158, 104, 23);
+    bottom:0px;
+    box-sizing: border-box;
+    border-top:3px solid black;
+}
+
+.cpright{
+    width:630px;
+    height:75px;
+    top:60px;
+    left:350px;
+    position:relative;
+}
+.sns{
+    width:200px;
+    height:65px;
+    position:relative;
+    top: -10px;
+    left: 1500px;
+}
+.content{
+    width:1920px;
+    height:2300px;
+}
+.contents1{
+    width:510px;
+    height:700px;
+    background-color: white;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border:3px solid #000;
+    float:left;
+}
+.contents2{
+    width:510px;
+    height:700px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 70%;
+    box-sizing: border-box;
+    border:3px solid #000;
+}
+.contents3{
+    width:510px;
+    height:700px;
+    background-color: white;
+    position: relative;
+    left: 20%;
+    box-sizing: border-box;
+    border:3px solid #000;
+}
+.headline{
+    width:505px;
+    height:100px;
+    box-sizing: border-box;
+    border-bottom:2px solid #000;
+    position: relative;
+}
+.picture{
+    width:505px;
+    height:400px;
+    box-sizing: border-box;
+    border-bottom:2px solid #000;
+    position: relative;
+}
+.parcelimg{
+    width:505px;
+    height:399px;
+}
+
+/*div 구역 */
+
+
+
+/* 버튼 */
+.btn1{
+    width: 140px;
+    height: 45px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff6ea;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position:absolute;
+
+    }
+  
+  .btn1:hover {
+    background-color: #f8cb97;
+    box-shadow: 0px 15px 20px rgba(161, 152, 110, 0.4);
+    color: #000000;
+    transform: translateY(-7px);
+  }
+  .btn2{
+    width: 220px;
+    height: 70px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff6ea;
+    border: 2px solid rgba(92, 92, 92, 0.671);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position:relative;
+    }
+
+    .btn2:hover {
+        background-color: #f8cb97;
+        box-shadow: 0px 15px 20px rgba(161, 152, 110, 0.4);
+        color: #000000;
+        transform: translateY(-7px);
+    }
+    .btnAdd{
+    width : 100px;
+    height: 100px;
+    margin-top : 50%;
+    margin-left : 40%;
+    font-size : 40px;
+    }
+  /* 로그인, 회원가입 버튼*/

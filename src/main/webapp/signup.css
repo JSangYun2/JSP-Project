@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Dongle:wght@700&display=swap');
+
+/*div 구역*/
+.bkground{
+    background-image: url("./img/bkground.png");
+    width:1920px;
+    height:120%;
+}
+.top{
+    width:1920px;
+    height:410px;
+}
+.btnzone{
+    width:1920px;
+    height:200px; 
+    box-sizing: border-box;  
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+.logo{  
+    left:725px;
+    top:60px;
+    position:absolute; 
+    
+}
+.login{
+    width:250px;
+    height:140px;
+    position:absolute;
+    top:40px;
+    left:1650px;        
+}
+.middle{
+    width:1200px;
+    height:1000px;
+    margin-left: 360px;
+}
+.bottom{
+    width:1920px;
+    height:185px;
+    background-color:rgb(158, 104, 23);
+    bottom:0px;
+    box-sizing: border-box;
+    border-top:3px solid black;
+}
+
+.cpright{
+    width:630px;
+    height:75px;
+    top:60px;
+    left:350px;
+    position:relative;
+}
+.sns{
+    width:200px;
+    height:65px;
+    position:relative;
+    top: -10px;
+    left: 1500px;
+}
+
+/*div 구역 */
+
+/* 버튼 */
+.btn1{
+    width: 140px;
+    height: 45px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff6ea;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position:absolute;
+
+    }
+  
+  .btn1:hover {
+    background-color: #f8cb97;
+    box-shadow: 0px 15px 20px rgba(161, 152, 110, 0.4);
+    color: #000000;
+    transform: translateY(-7px);
+  }
+  .btn2{
+    width: 220px;
+    height: 70px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff6ea;
+    border: 2px solid rgba(92, 92, 92, 0.671);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position:relative;
+
+    }
+    .btn2:hover {
+        background-color: #f8cb97;
+        box-shadow: 0px 15px 20px rgba(161, 152, 110, 0.4);
+        color: #000000;
+        transform: translateY(-7px);
+      }
+    .signup{
+        width:1200px;
+        height:60px;
+        border-radius:30px;
+        background-color: rgb(242, 242, 242);
+        text-align:center;
+        font-size:25px;
+    }
+    .signup:hover{
+        background-color: #6e6e6ef7;
+        color: white;
+    }
+  /* 로그인, 회원가입 버튼*/
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #e7d5beee;
+  }
+  .form {
+    width: 100%;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .form input {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    padding-top: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ab7847;
+  }
+  .form label {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+  }
+  .form label::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #fce38a;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  .form span{
+    bottom:3px;
+    left:30px;
+    color:#fff;
+    font-family:'Dongle', sans-serif;
+    font-size:25px;
+    letter-spacing: 2px;
+  }
+  
+  .content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #fce38a;
+  }
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after {
+    transform: translateX(0%);
+  }
